@@ -6,19 +6,28 @@ body {
 
 li {
     list-style: none;
+    line-height: 25px;
 }
 
 .paper_block {
     width: 794px;
     height: 1123px;
-    background-color: white;
+    background-color: rgb(241, 230, 214);
 }
 
 .left-side {
     float: left;
-    background-color: rgb(144, 138, 228);
+    background-color: rgb(230, 102, 113);
     width: 250px;
     height: 1123px;
+}
+
+.left-side {
+    background-color: rgb(235, 209, 172);
+}
+
+.left-side h2 {
+    background-color: rgb(241, 230, 214);
 }
 
 .left-side h2,
@@ -29,7 +38,7 @@ li {
 .right-side {
     float: right;
     height: 1123px;
-    background-color: white;
+    background-color: rgb(241, 230, 214);
 }
 
 p {
@@ -38,27 +47,20 @@ p {
 
 a {
     text-decoration: none;
-}
-
-a:before {
-    color: green;
-}
-
-a:hover {
-    color: darkgoldenrod;
+    color: rgb(37, 36, 49);
 }
 
 a:visited {
     color: black;
 }
 
+a:hover {
+    color: darkgoldenrod;
+}
+
 #hobbys li {
     display: inline;
     padding: 5px;
-}
-
-h3 {
-    color: black;
 }
 
 .languages ul li {
@@ -67,6 +69,7 @@ h3 {
     border: black 1px;
     float: right;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .languages img {
@@ -81,4 +84,16 @@ h3 {
     height: 14px;
     padding: 0px;
     box-shadow: 5px 5px 10px;
+}
+
+h2 {
+    background-color: rgb(235, 209, 172);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+h1 {
+    background-color: rgb(235, 209, 172);
+    border-radius: 5px;
+    padding-left: 5px;
 }
